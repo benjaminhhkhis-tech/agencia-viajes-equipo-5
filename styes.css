@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Mejora del Hero */
+header.bg-primary {
+    background: linear-gradient(rgba(13, 110, 253, 0.8), rgba(13, 110, 253, 0.8)), 
+                url('../img/fondo-hero.jpg'); /* Asegúrate de tener esta imagen */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 !important;
+}
+
+/* Efectos en las tarjetas (Cards) */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilo del formulario */
+section#contacto {
+    border-left: 5px solid #0d6efd;
+}
+
+/* Ajustes para el modo responsive */
+@media (max-width: 768px) {
+    header.bg-primary {
+        padding: 50px 0 !important;
+    }
+}
