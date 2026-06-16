@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora Tours El Salvador | Tu mejor aventura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="ajecias.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Explora Tours</a>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Descubre El Salvador</h1>
+            <p class="lead">Vive experiencias inolvidables con nosotros.</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="paquetes" class="mb-5">
+            <h2 class="text-center mb-4">Paquetes Disponibles</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="playa.jpg" class="card-img-top" alt="Playa">
+                        <div class="card-body">
+                            <h5 class="card-title">Ruta del Sol</h5>
+                            <p class="card-text">Disfruta de las mejores playas del Pacífico salvadoreño.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="montañas.jpg" class="card-img-top" alt="Montaña">
+                        <div class="card-body">
+                            <h5 class="card-title">Ruta de las Flores</h5>
+                            <p class="card-text">Conoce la belleza de nuestros pueblos coloniales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src= "volcan.jpg" class="card-img-top" alt="Volcán">
+                        <div class="card-body">
+                            <h5 class="card-title">Aventura Volcánica</h5>
+                            <p class="card-text">Senderismo y vistas espectaculares desde las alturas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="bg-light p-4 rounded">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="ajencia.js"></script>
+</body>
+</html>
